@@ -1,0 +1,117 @@
+* {
+    overflow: hidden;
+    max-width: 100%;
+    background-color: rgb(157, 181, 197);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#top {
+    flex-direction: row;
+    height: 70vh;
+}
+
+#difficulty-button-container {
+    align-items: center;
+    flex-direction: row;
+}
+
+.difficulty-button {
+    width: 30vw;
+    height: 30vw;
+    border: 3px solid #333;
+    margin: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+}
+
+#letter-container {
+    width: 100%;
+    height: 30%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.letter {
+    border: 3px solid #333;
+    margin: 1%;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.guessed-correct {
+    background-color: rgb(88, 207, 88);
+}
+
+.guessed-incorrect {
+    background-color: gray;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    align-self: top;
+}
+
+#canvas-container {
+    width: 35%;
+    height: 80vh;
+    display: flex;
+    align-self: top;
+}
+
+#dash-container {
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dash {
+    margin: 3px;
+    width: 3vw;
+}
+
+#dash-letter {
+    border-bottom: 3px solid #333;
+    text-align: center;
+    font-size: 2vw;
+    height: 3vw;
+    line-height: 3vw;
+}
+
+#word-container {
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 1.5vw;
+}
+
+#game-end {
+    z-index: 9999999;
+    width: 60%;
+    height: 60%;
+    border: 3px solid #7a7878;
+    font-size: 10vw;
+    text-align: center;
+    position: absolute;
+    background-color: #7a7878;
+    align-items: center;
+}
+
+#correct-word {
+    font-size: medium;
+    background-color:#7a7878;
+}

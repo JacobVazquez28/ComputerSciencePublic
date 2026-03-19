@@ -1,0 +1,34 @@
+{
+    "hard": [
+        "adept",
+        "difficult",
+        "runaway",
+        "school",
+        "novice",
+        "robot",
+        "computer",
+        "javascript",
+        "header",
+        "button",
+        "container",
+        "class",
+        "constant",
+        "variable",
+        "medium"
+    ],
+    "medium": [
+        "the dog ran away",
+        "the pig rolled around",
+        "the kids had fun",
+        "school gets out early",
+        "homework is hard",
+        "homework is easy",
+        "elementry school is easy"
+    ],
+    "easy": [
+        "the horse ran around the pasture",
+        "the pigsty is full of mud and filth",
+        "the school got out early due to a basketball game",
+        "some schools only focus on athletics and neglect academics"
+    ]
+}
